@@ -47,7 +47,7 @@ namespace TestGenérico.Controllers.Cotizacion
                 }
                 else
                 {
-                    return NotFound();
+                    return Unauthorized();
                 }
                 
 
